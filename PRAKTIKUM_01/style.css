@@ -1,0 +1,108 @@
+/* Pengaturan Umum Halaman */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f7f6;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+/* Bagian Atas / Header */
+header {
+    background-color: #2c3e50;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+/* Judul Utama Konten */
+.main-title {
+    text-align: center;
+    color: #2c3e50;
+    margin-top: 30px;
+}
+
+/* Wadah Utama Kartu (Flexbox agar Bersebelahan) */
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Desain Kotak Kartu Biodata */
+.card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 280px;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.2s;
+}
+
+/* Efek saat Kartu Disorot Mouse */
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card h2 {
+    font-size: 1.3rem;
+    color: #2c3e50;
+    margin-bottom: 10px;
+    height: 50px; /* Menjaga kesamaan tinggi baris nama */
+}
+
+/* Desain Tombol Role */
+.btn-role {
+    background-color: #e67e22;
+    color: white;
+    border: none;
+    padding: 6px 15px;
+    border-radius: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-bottom: 15px;
+}
+
+.btn-role:hover {
+    background-color: #d35400;
+}
+
+/* Pembungkus Foto Anggota */
+.profile-img img {
+    width: 150px;
+    height: 190px;
+    object-fit: cover;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.15);
+    margin-bottom: 15px;
+}
+
+/* Detail Teks Biodata */
+.bio-details {
+    text-align: left;
+    font-size: 0.9rem;
+    line-height: 1.5;
+}
+
+.bio-details p {
+    margin: 8px 0;
+}
+
+/* Bagian Bawah / Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #2c3e50;
+    color: white;
+    margin-top: 40px;
+}
